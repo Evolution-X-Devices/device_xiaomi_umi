@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Unofficial OTA support from own server
+PRODUCT_PACKAGES += \
+    Updater
+
 # Fingerprint
 TARGET_HAS_UDFPS := true
 

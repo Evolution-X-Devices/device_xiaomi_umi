@@ -14,15 +14,28 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from umi device
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
-PRODUCT_NAME := lineage_umi
-PRODUCT_DEVICE := umi
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 10
+# Extra Packages
+$(call inherit-product, vendor/extras/bcr/bcr.mk) 	    # BCR
+$(call inherit-product, vendor/xiaomi/camera/miuicamera.mk) # HolyBear Leica camera
+
+# Include Vendor Keys
+include vendor/evolution-priv/keys/keys.mk
+
+# Extra Tags
+EVO_BUILD_TYPE 	        := COMMUNITY
+TARGET_HAS_UDFPS        := true
+WITH_GAPPS              := true
+
+# Device Details
+PRODUCT_NAME            := evolution_umi
+PRODUCT_DEVICE          := umi
+PRODUCT_MANUFACTURER    := Xiaomi
+PRODUCT_BRAND           := Xiaomi
+PRODUCT_MODEL           := Mi 10
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="umi-user 13 RKQ1.211001.001 V14.0.5.0.TJBMIXM release-keys"
+    PRIVATE_BUILD_DESC="umi-user 13 RKQ1.211001.001 V816.0.3.0.TJBMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/umi_global/umi:13/RKQ1.211001.001/V14.0.5.0.TJBMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/umi_global/umi:13/RKQ1.211001.001/V816.0.3.0.TJBMIXM:user/release-keys
