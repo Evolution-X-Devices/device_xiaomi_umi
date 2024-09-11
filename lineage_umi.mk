@@ -15,8 +15,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
 # Extra Packages
-$(call inherit-product, vendor/extras/bcr/bcr.mk) 	    # BCR
 $(call inherit-product, vendor/xiaomi/camera/miuicamera.mk) # HolyBear Leica camera
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Include Vendor Keys
 include vendor/evolution-priv/keys/keys.mk
@@ -25,6 +25,7 @@ include vendor/evolution-priv/keys/keys.mk
 EVO_BUILD_TYPE 	        := COMMUNITY
 TARGET_HAS_UDFPS        := true
 WITH_GAPPS              := true
+BUILD_BCR               := true
 
 # Device Details
 PRODUCT_NAME            := evolution_umi
