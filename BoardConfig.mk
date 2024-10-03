@@ -7,6 +7,8 @@
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
+BUILD_BROKEN_DUP_RULES := true
+
 DEVICE_PATH := device/xiaomi/umi
 
 # Display
