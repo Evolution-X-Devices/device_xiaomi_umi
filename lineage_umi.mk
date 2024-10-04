@@ -16,7 +16,6 @@ $(call inherit-product, device/xiaomi/umi/device.mk)
 
 # Extra Packages
 $(call inherit-product, vendor/xiaomi/camera/miuicamera.mk) # HolyBear Leica camera
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Include Vendor Keys
 include vendor/evolution-priv/keys/keys.mk
