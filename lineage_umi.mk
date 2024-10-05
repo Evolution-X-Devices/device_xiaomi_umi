@@ -24,7 +24,7 @@ include vendor/evolution-priv/keys/keys.mk
 EVO_BUILD_TYPE 	        := COMMUNITY
 TARGET_USES_MIUI_DOLBY  := true
 TARGET_HAS_UDFPS        := true
-WITH_GAPPS              := true
+WITH_GMS                := true
 BUILD_BCR               := true
 
 # Device Details
