@@ -16,13 +16,13 @@ $(call inherit-product, device/xiaomi/umi/device.mk)
 
 # Extra Packages
 $(call inherit-product, vendor/xiaomi/camera/miuicamera.mk) # HolyBear Leica camera
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk) # ViPER4AndroidFX
 
 # Include Vendor Keys
 include vendor/evolution-priv/keys/keys.mk
 
 # Extra Tags
 EVO_BUILD_TYPE 	        := COMMUNITY
-TARGET_USES_MIUI_DOLBY  := true
 TARGET_HAS_UDFPS        := true
 WITH_GMS                := true
 BUILD_BCR               := true
