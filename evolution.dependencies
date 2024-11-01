@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common",
+    "branch": "vic"
+  },
+  {
+    "repository": "vendor_xiaomi_sm8250-common",
+    "target_path": "vendor/xiaomi/sm8250-common",
+    "branch": "vic"
+  },
+  {
+    "repository": "vendor_xiaomi_umi",
+    "target_path": "vendor/xiaomi/umi",
+    "branch": "vic"
+  },
+  {
+    "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "vic"
+  },
+  {
+    "repository": "packages_apps_ViPER4AndroidFX",
+    "target_path": "packages/apps/ViPER4AndroidFX"
+  },
+  {
+    "repository": "TechPanelGM/vendor_xiaomi_MiuiCamera",
+    "target_path": "vendor/xiaomi/miuicamera-sm8250",
+    "remote": "github-non-los",
+    "branch": "14"
+  }
+]
