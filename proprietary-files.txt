@@ -134,11 +134,11 @@ vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/libMIAIHDRhvx_interface.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libalAILDC.so
+vendor/lib64/libalCFR.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libarcdualcamsat.so
 vendor/lib64/libarcmulticamsat.so
-vendor/lib64/libarcsat.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_bodyslim.so
 vendor/lib64/libarcsoft_distortion_correction.so
@@ -171,8 +171,12 @@ vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libflaw.so
 vendor/lib64/libfocus.so
 vendor/lib64/libft2vendor.so
+vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libhta.so
 vendor/lib64/libipebpsstriping.so
+vendor/lib64/libmiai_deblur.so
+vendor/lib64/libmialgoengine.so
+vendor/lib64/libmialgo_ie_capture.so
 vendor/lib64/libmialgo_ie_preview.so
 vendor/lib64/libmialgo_image_colourkeeping.so
 vendor/lib64/libmialgo_rfs.so
@@ -190,6 +194,7 @@ vendor/lib64/libmulticam_video_optical_zoom.so
 vendor/lib64/libnpu.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libos.so
+vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaichvx_stub.so
 vendor/lib64/libremosaiclib.so
@@ -201,6 +206,8 @@ vendor/lib64/libsnpe_dsp_domains_v2_system.so
 vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libst_soft_isp_calc_exposure_shared.so
 vendor/lib64/libst_soft_isp_shared.so
+vendor/lib64/libSuperSensor.so
+vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
