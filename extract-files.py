@@ -56,6 +56,7 @@ namespace_imports = [
     'hardware/xiaomi',
     'vendor/qcom/opensource/display',
     'vendor/xiaomi/sm8250-common',
+    'hardware/qcom-caf/sm8250',
 ]
 
 module = ExtractUtilsModule(
