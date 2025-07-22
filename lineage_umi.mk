@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from umi device
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
+# Camera
+include device/xiaomi/camera/miuicamera.mk
+
 # Build Flags
 TARGET_SCREEN_HEIGHT          := 2340
 TARGET_SCREEN_WIDTH           := 1080
