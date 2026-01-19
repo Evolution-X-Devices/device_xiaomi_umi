@@ -14,6 +14,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from umi device
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
+# Build Flags
+TARGET_USES_MINI_GAPPS        := true
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+TARGET_INCLUDE_ACCORD         := false
+BUILD_BCR                     := true
+
 PRODUCT_NAME := lineage_umi
 PRODUCT_DEVICE := umi
 PRODUCT_MANUFACTURER := Xiaomi
