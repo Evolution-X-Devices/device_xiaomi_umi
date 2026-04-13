@@ -1,0 +1,26 @@
+[
+  {
+    "device": "umi",
+    "maintainer": "TechPanelGM (Giovanni)",
+    "github": "TechPanelGM",
+    "status": "active",
+    "firmware": {
+      "required": true,
+      "url": "https://xmfirmwareupdater.com/firmware/umi/stable/V14.0.5.0.TJBMIXM/"
+    },
+    "ci": {
+      "enabled": true,
+      "schedule": "weekly",
+      "build_target": "user",
+      "build_type": "both"
+    },
+    "installation_images": {
+      "bka": ["recovery"],
+      "bka-vanilla": ["recovery"],
+      "vic": ["recovery"],
+      "vic-vanilla": ["recovery"],
+      "udc": ["recovery"],
+      "udc-vanilla": ["recovery"]
+    }
+  }
+]
